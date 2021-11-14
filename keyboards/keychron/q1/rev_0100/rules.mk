@@ -23,4 +23,4 @@ DIP_SWITCH_ENABLE = yes
 RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = IS31FL3733
 
-UNICODEMAP_ENABLE = yes     # Enable Unicode Map
+# UNICODEMAP_ENABLE = yes     # Enable Unicode Map
