@@ -99,6 +99,7 @@
 // #define ENABLE_RGB_MATRIX_PIXEL_FLOW
 // #define ENABLE_RGB_MATRIX_PIXEL_FRACTAL
 // enabled only if RGB_MATRIX_FRAMEBUFFER_EFFECTS is defined
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define ENABLE_RGB_MATRIX_TYPING_HEATMAP
 #define ENABLE_RGB_MATRIX_DIGITAL_RAIN
 
@@ -121,3 +122,9 @@
 #ifdef VIA_ENABLE
 #    define VIA_QMK_RGBLIGHT_ENABLE
 #endif
+
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_MULTISPLASH
+#define RGB_MATRIX_STARTUP_HUE 155
+#define RGB_MATRIX_STARTUP_SAT 220
+#define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS // Sets the default brightness value, if none has been set
+#define RGB_MATRIX_STARTUP_SPD 85 //Sets default animation speed, if none has been set
