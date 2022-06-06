@@ -38,3 +38,4 @@
 #include "solid_reactive_nexus.h"
 #include "splash_anim.h"
 #include "solid_splash_anim.h"
+#include "solid_splash_rand_color_anim.h"

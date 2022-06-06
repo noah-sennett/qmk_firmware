@@ -117,6 +117,7 @@
 #define ENABLE_RGB_MATRIX_MULTISPLASH
 #define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+#define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH_RAND_COLOR
 
 /* Allow VIA to edit lighting */
 #ifdef VIA_ENABLE
@@ -127,4 +128,4 @@
 #define RGB_MATRIX_STARTUP_HUE 155
 #define RGB_MATRIX_STARTUP_SAT 220
 #define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS // Sets the default brightness value, if none has been set
-#define RGB_MATRIX_STARTUP_SPD 85 //Sets default animation speed, if none has been set
+#define RGB_MATRIX_STARTUP_SPD 30 //Sets default animation speed, if none has been set
